@@ -12,8 +12,23 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
+      debugShowCheckedModeBanner: false,
       title: 'Fitness & workout',
-      theme: ThemeData(primaryColor: Color(0xFF1C1C1E)),
+      theme: ThemeData(
+        primaryColor: Color(0xFF1C1C1E),
+        scaffoldBackgroundColor: Colors.white,
+        fontFamily: 'Poppins',
+        appBarTheme: AppBarTheme(
+          elevation: 0,
+          color: Colors.white,
+          iconTheme: IconThemeData(color: Colors.black),
+          titleTextStyle: TextStyle(
+            color: Colors.black,
+            fontSize: 20,
+            fontWeight: FontWeight.bold,
+          ),
+        ),
+      ),
       home: HomeScreen(),
     );
   }
