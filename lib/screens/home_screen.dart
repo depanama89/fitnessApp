@@ -37,7 +37,7 @@ class HomeScreen extends StatelessWidget {
                     ),
                     Row(
                       children: [
-                        Icon(Icons.whatshot_sharp, color: Colors.red, size: 50),
+                        Icon(Icons.whatshot_sharp, color: Colors.red, size: 24),
                         SizedBox(width: 6),
                         InkWell(
                           onTap: () {},
@@ -45,15 +45,14 @@ class HomeScreen extends StatelessWidget {
                             padding: EdgeInsets.all(8),
                             decoration: BoxDecoration(
                               color: Colors.amber[300],
-                              borderRadius: BorderRadius.circular(10),
+                              borderRadius: BorderRadius.circular(8),
                             ),
                             child: Text(
                               "V PRO",
                               style: TextStyle(
-                                fontSize: 10,
-                                fontWeight: FontWeight.bold,
+                                fontWeight: FontWeight.w500,
                                 color: Colors.black,
-                                
+                                fontSize: 10,
                               ),
                             ),
                           ),
