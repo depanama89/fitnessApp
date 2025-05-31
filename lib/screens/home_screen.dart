@@ -31,22 +31,22 @@ class HomeScreen extends StatelessWidget {
                     ),
                     Row(
                       children: [
-                        Icon(Icons.whatshot_sharp, color: Colors.red, size: 30),
+                        Icon(Icons.whatshot_sharp, color: Colors.red, size: 24),
                         SizedBox(width: 6),
                         InkWell(
                           onTap: () {},
                           child: Container(
-                            padding: EdgeInsets.all(10),
+                            padding: EdgeInsets.all(8),
                             decoration: BoxDecoration(
                               color: Colors.amber[300],
-                              borderRadius: BorderRadius.circular(12),
+                              borderRadius: BorderRadius.circular(8),
                             ),
                             child: Text(
                               "V PRO",
                               style: TextStyle(
-                                fontWeight: FontWeight.w600,
+                                fontWeight: FontWeight.w500,
                                 color: Colors.black,
-                                fontSize: 16,
+                                fontSize: 10,
                               ),
                             ),
                           ),
